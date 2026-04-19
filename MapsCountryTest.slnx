@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DataAccess/DataAccess.Context/DataAccess.Context.csproj" Id="cad03338-69ed-4e50-bcf0-45fe7cad99de" />
+  <Project Path="MapsCountryTest.Api/MapsCountryTest.Api.csproj" />
+  <Project Path="MapsCountryTest.Service/MapsCountryTest.Service.csproj" />
+</Solution>
