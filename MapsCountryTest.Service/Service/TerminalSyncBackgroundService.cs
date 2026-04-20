@@ -29,7 +29,6 @@ namespace MapsCountryTest.Service
                 {
                  
                     //Если нужна проверка при старте на 02:00 по МСК, иначе первый раз пройдет загрузка немедленно, и потому будем ждать до 2 часов
-
                     /*
                     if (_isJustStarted)
                     {
@@ -55,8 +54,7 @@ namespace MapsCountryTest.Service
                     interval.Hours,
                     interval.Minutes,
                     interval.Seconds);
-                    //await Task.Delay(interval, stoppingToken);
-                    await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
+                    await Task.Delay(interval, stoppingToken);
                 }
             }
             catch (OperationCanceledException)

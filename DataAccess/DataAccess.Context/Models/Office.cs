@@ -1,10 +1,12 @@
 ﻿using DataAccess.Context.BaseEntity;
 using DataAccess.Context.Models;
+using Microsoft.EntityFrameworkCore;
 
 /// <summary>
 /// Представляет модель данных для офиса.
 /// Содержит всю необходимую информацию о местоположении, контактах и рабочем времени.
 /// </summary>
+[Index("AddressRegion", "AddressCity")]
 public class Office : BaseEntity
 {
     /// <summary>
